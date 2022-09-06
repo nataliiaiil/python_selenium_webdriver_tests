@@ -8,3 +8,20 @@ Read port: 62149
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\NATALI~1\\AppData\\Local\\Temp\\rust_mozprofile4LHtt8\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:62140/devtools/browser/ca40b6b1-cb95-4e52-acae-4b0f95030902
 1662471337049	Marionette	INFO	Stopped listening on port 62149
+1662473445923	geckodriver	INFO	Listening on 127.0.0.1:62850
+1662473448959	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62851" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NATALI~1\\AppData\\Local\\Temp\\rust_mozprofileXtjSgZ"
+1662473449242	Marionette	INFO	Marionette enabled
+1662473449245	Marionette	INFO	Listening on port 62860
+WebDriver BiDi listening on ws://localhost:62851
+Read port: 62860
+1662473449338	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\NATALI~1\\AppData\\Local\\Temp\\rust_mozprofileXtjSgZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62851/devtools/browser/ff0ebcd0-dca1-4034-9e92-6a39674aa677
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1662473452180	Marionette	INFO	Stopped listening on port 62860

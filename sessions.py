@@ -1,4 +1,7 @@
 from selenium import webdriver
 
 driver = webdriver.Firefox()
-driver.quit()
+try:
+    driver.get('https://google.com/')
+finally:
+    driver.quit()
